@@ -7,3 +7,15 @@
 //
 
 import Foundation
+import UIKit
+
+class RecentEventTableViewCell: UITableViewCell {
+    
+    @IBOutlet var leftScoreLabel: UILabel
+    @IBOutlet var rightScoreLabel: UILabel
+    @IBOutlet var eventTitleLabel: UILabel
+    @IBOutlet var dateLabel: UILabel;
+    
+    
+    
+}

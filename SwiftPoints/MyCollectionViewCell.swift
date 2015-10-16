@@ -7,3 +7,14 @@
 //
 
 import Foundation
+import UIKit
+
+class MyCollectionViewCell: UICollectionViewCell {
+    
+    @IBOutlet var imageView: UIImageView;
+    @IBOutlet var circleImageView: UIImageView;
+    @IBOutlet var pointsLabel: UILabel;
+    
+    
+    
+}
